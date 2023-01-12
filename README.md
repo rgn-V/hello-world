@@ -1,4 +1,3 @@
 # hello-world
-I study github	
 
-2 + 2 = 4
+This is a hello-world project for learning frontend development.
