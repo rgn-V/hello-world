@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vw;
+}
+
+.main__text {
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-family: 'Source Code Pro', monospace;
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: color-change 1s infinite;
+    background-color: rgba(34, 60, 80, 0);
+}
+
+@keyframes color-change {
+    
+    0% { color: #a3c4f3; 
+        text-shadow: 4px 6px 0px #000000;
+    }
+    25% { color: #90dbf4;
+        text-shadow: -1px 8px 0px #000000;
+     }
+    50% { color: #8eecf5;
+        text-shadow: -8px 7px 0px #000000;
+     }
+    75% { color: #98f5e1;
+        text-shadow: -8px -6px 0px #000000;
+     }
+    100% { color: #b9fbc0;
+        text-shadow: 8px -6px 0px #000000   ;
+     }
+}
